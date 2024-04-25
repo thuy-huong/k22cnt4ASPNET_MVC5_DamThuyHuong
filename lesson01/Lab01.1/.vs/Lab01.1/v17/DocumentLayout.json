@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson01\\Lab01.1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B39AA784-366D-497E-A41C-BDA89D945772}|BTTTH_Bai1.1\\BTTTH_Bai1.1.csproj|c:\\k22cnt4-aspnetmvc\\k22cnt4aspnet_mvc5_damthuyhuong\\lesson01\\lab01.1\\bttth_bai1.1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B39AA784-366D-497E-A41C-BDA89D945772}|BTTTH_Bai1.1\\BTTTH_Bai1.1.csproj|solutionrelative:bttth_bai1.1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C00C0B60-48B0-4450-AE5E-53DAD56D2E73}|Lab01.2\\Lab01.2.csproj|c:\\k22cnt4-aspnetmvc\\k22cnt4aspnet_mvc5_damthuyhuong\\lesson01\\lab01.1\\lab01.2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C00C0B60-48B0-4450-AE5E-53DAD56D2E73}|Lab01.2\\Lab01.2.csproj|solutionrelative:lab01.2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B39AA784-366D-497E-A41C-BDA89D945772}|BTTTH_Bai1.1\\BTTTH_Bai1.1.csproj|c:\\k22cnt4-aspnetmvc\\k22cnt4aspnet_mvc5_damthuyhuong\\lesson01\\lab01.1\\bttth_bai1.1\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B39AA784-366D-497E-A41C-BDA89D945772}|BTTTH_Bai1.1\\BTTTH_Bai1.1.csproj|solutionrelative:bttth_bai1.1\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "libman.json",
+              "DocumentMoniker": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson01\\Lab01.1\\BTTTH_Bai1.1\\libman.json",
+              "RelativeDocumentMoniker": "BTTTH_Bai1.1\\libman.json",
+              "ToolTip": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson01\\Lab01.1\\BTTTH_Bai1.1\\libman.json",
+              "RelativeToolTip": "BTTTH_Bai1.1\\libman.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-23T14:52:04.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson01\\Lab01.1\\Lab01.2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Lab01.2\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson01\\Lab01.1\\Lab01.2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Lab01.2\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-23T14:50:15.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson01\\Lab01.1\\BTTTH_Bai1.1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "BTTTH_Bai1.1\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson01\\Lab01.1\\BTTTH_Bai1.1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "BTTTH_Bai1.1\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABcAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-23T14:50:11.165Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
