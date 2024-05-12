@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson03\\DthLesson03Demo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9645A433-576E-40AB-89E9-33DFCCC50509}|DthLesson03Demo\\DthLesson03Demo.csproj|C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson03\\DthLesson03Demo\\dthlesson03demo\\controllers\\dthstudentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9645A433-576E-40AB-89E9-33DFCCC50509}|DthLesson03Demo\\DthLesson03Demo.csproj|solutionrelative:dthlesson03demo\\controllers\\dthstudentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9645A433-576E-40AB-89E9-33DFCCC50509}|DthLesson03Demo\\DthLesson03Demo.csproj|C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson03\\DthLesson03Demo\\dthlesson03demo\\views\\shared\\_viewcontact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9645A433-576E-40AB-89E9-33DFCCC50509}|DthLesson03Demo\\DthLesson03Demo.csproj|solutionrelative:dthlesson03demo\\views\\shared\\_viewcontact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9645A433-576E-40AB-89E9-33DFCCC50509}|DthLesson03Demo\\DthLesson03Demo.csproj|C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson03\\DthLesson03Demo\\dthlesson03demo\\views\\dthstudent\\studentlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9645A433-576E-40AB-89E9-33DFCCC50509}|DthLesson03Demo\\DthLesson03Demo.csproj|solutionrelative:dthlesson03demo\\views\\dthstudent\\studentlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9645A433-576E-40AB-89E9-33DFCCC50509}|DthLesson03Demo\\DthLesson03Demo.csproj|c:\\k22cnt4-aspnetmvc\\k22cnt4aspnet_mvc5_damthuyhuong\\lesson03\\dthlesson03demo\\dthlesson03demo\\views\\dthstudent\\addstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9645A433-576E-40AB-89E9-33DFCCC50509}|DthLesson03Demo\\DthLesson03Demo.csproj|solutionrelative:dthlesson03demo\\views\\dthstudent\\addstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9645A433-576E-40AB-89E9-33DFCCC50509}|DthLesson03Demo\\DthLesson03Demo.csproj|C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson03\\DthLesson03Demo\\dthlesson03demo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9645A433-576E-40AB-89E9-33DFCCC50509}|DthLesson03Demo\\DthLesson03Demo.csproj|solutionrelative:dthlesson03demo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddStudent.cshtml",
+              "DocumentMoniker": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson03\\DthLesson03Demo\\DthLesson03Demo\\Views\\DthStudent\\AddStudent.cshtml",
+              "RelativeDocumentMoniker": "DthLesson03Demo\\Views\\DthStudent\\AddStudent.cshtml",
+              "ToolTip": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson03\\DthLesson03Demo\\DthLesson03Demo\\Views\\DthStudent\\AddStudent.cshtml",
+              "RelativeToolTip": "DthLesson03Demo\\Views\\DthStudent\\AddStudent.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-12T05:45:23.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentList.cshtml",
+              "DocumentMoniker": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson03\\DthLesson03Demo\\DthLesson03Demo\\Views\\DthStudent\\StudentList.cshtml",
+              "RelativeDocumentMoniker": "DthLesson03Demo\\Views\\DthStudent\\StudentList.cshtml",
+              "ToolTip": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson03\\DthLesson03Demo\\DthLesson03Demo\\Views\\DthStudent\\StudentList.cshtml",
+              "RelativeToolTip": "DthLesson03Demo\\Views\\DthStudent\\StudentList.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-12T05:41:00.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson03\\DthLesson03Demo\\DthLesson03Demo\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "DthLesson03Demo\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson03\\DthLesson03Demo\\DthLesson03Demo\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "DthLesson03Demo\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAB8AAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-12T05:39:59.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_ViewContact.cshtml",
+              "DocumentMoniker": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson03\\DthLesson03Demo\\DthLesson03Demo\\Views\\Shared\\_ViewContact.cshtml",
+              "RelativeDocumentMoniker": "DthLesson03Demo\\Views\\Shared\\_ViewContact.cshtml",
+              "ToolTip": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson03\\DthLesson03Demo\\DthLesson03Demo\\Views\\Shared\\_ViewContact.cshtml",
+              "RelativeToolTip": "DthLesson03Demo\\Views\\Shared\\_ViewContact.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-12T05:38:33.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DthStudentController.cs",
+              "DocumentMoniker": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson03\\DthLesson03Demo\\DthLesson03Demo\\Controllers\\DthStudentController.cs",
+              "RelativeDocumentMoniker": "DthLesson03Demo\\Controllers\\DthStudentController.cs",
+              "ToolTip": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson03\\DthLesson03Demo\\DthLesson03Demo\\Controllers\\DthStudentController.cs",
+              "RelativeToolTip": "DthLesson03Demo\\Controllers\\DthStudentController.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAArwCUAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T04:34:28.636Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

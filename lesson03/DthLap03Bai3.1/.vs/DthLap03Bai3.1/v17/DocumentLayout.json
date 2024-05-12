@@ -1,0 +1,277 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson03\\DthLap03Bai3.1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{98A057EA-59D4-4EBE-B248-5D32CE731B05}|DthLab03Bai3.3\\DthLab03Bai3.3.csproj|c:\\k22cnt4-aspnetmvc\\k22cnt4aspnet_mvc5_damthuyhuong\\lesson03\\dthlap03bai3.1\\dthlab03bai3.3\\views\\dthhtmlhelper\\formregister.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98A057EA-59D4-4EBE-B248-5D32CE731B05}|DthLab03Bai3.3\\DthLab03Bai3.3.csproj|solutionrelative:dthlab03bai3.3\\views\\dthhtmlhelper\\formregister.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98A057EA-59D4-4EBE-B248-5D32CE731B05}|DthLab03Bai3.3\\DthLab03Bai3.3.csproj|C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson03\\DthLap03Bai3.1\\dthlab03bai3.3\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98A057EA-59D4-4EBE-B248-5D32CE731B05}|DthLab03Bai3.3\\DthLab03Bai3.3.csproj|solutionrelative:dthlab03bai3.3\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98A057EA-59D4-4EBE-B248-5D32CE731B05}|DthLab03Bai3.3\\DthLab03Bai3.3.csproj|C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson03\\DthLap03Bai3.1\\dthlab03bai3.3\\views\\dthhtmlhelper\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98A057EA-59D4-4EBE-B248-5D32CE731B05}|DthLab03Bai3.3\\DthLab03Bai3.3.csproj|solutionrelative:dthlab03bai3.3\\views\\dthhtmlhelper\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98A057EA-59D4-4EBE-B248-5D32CE731B05}|DthLab03Bai3.3\\DthLab03Bai3.3.csproj|C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson03\\DthLap03Bai3.1\\dthlab03bai3.3\\controllers\\dthhtmlhelpercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98A057EA-59D4-4EBE-B248-5D32CE731B05}|DthLab03Bai3.3\\DthLab03Bai3.3.csproj|solutionrelative:dthlab03bai3.3\\controllers\\dthhtmlhelpercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98A057EA-59D4-4EBE-B248-5D32CE731B05}|DthLab03Bai3.3\\DthLab03Bai3.3.csproj|C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson03\\DthLap03Bai3.1\\dthlab03bai3.3\\models\\dthcountry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98A057EA-59D4-4EBE-B248-5D32CE731B05}|DthLab03Bai3.3\\DthLab03Bai3.3.csproj|solutionrelative:dthlab03bai3.3\\models\\dthcountry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48FE10EA-D6D2-476A-8F2F-B44F97EF935D}|DthLap03Bai3.2\\DthLap03Bai3.2.csproj|C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson03\\DthLap03Bai3.1\\dthlap03bai3.2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{48FE10EA-D6D2-476A-8F2F-B44F97EF935D}|DthLap03Bai3.2\\DthLap03Bai3.2.csproj|solutionrelative:dthlap03bai3.2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48FE10EA-D6D2-476A-8F2F-B44F97EF935D}|DthLap03Bai3.2\\DthLap03Bai3.2.csproj|C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson03\\DthLap03Bai3.1\\dthlap03bai3.2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{48FE10EA-D6D2-476A-8F2F-B44F97EF935D}|DthLap03Bai3.2\\DthLap03Bai3.2.csproj|solutionrelative:dthlap03bai3.2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478764F5-C318-4D18-AC72-A467330A21C9}|DthLap03Bai3.1\\DthLap03Bai3.1.csproj|C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson03\\DthLap03Bai3.1\\dthlap03bai3.1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{478764F5-C318-4D18-AC72-A467330A21C9}|DthLap03Bai3.1\\DthLap03Bai3.1.csproj|solutionrelative:dthlap03bai3.1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48FE10EA-D6D2-476A-8F2F-B44F97EF935D}|DthLap03Bai3.2\\DthLap03Bai3.2.csproj|C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson03\\DthLap03Bai3.1\\dthlap03bai3.2\\views\\dthrazorview\\array_loop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{48FE10EA-D6D2-476A-8F2F-B44F97EF935D}|DthLap03Bai3.2\\DthLap03Bai3.2.csproj|solutionrelative:dthlap03bai3.2\\views\\dthrazorview\\array_loop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48FE10EA-D6D2-476A-8F2F-B44F97EF935D}|DthLap03Bai3.2\\DthLap03Bai3.2.csproj|C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson03\\DthLap03Bai3.1\\dthlap03bai3.2\\controllers\\dthrazorviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48FE10EA-D6D2-476A-8F2F-B44F97EF935D}|DthLap03Bai3.2\\DthLap03Bai3.2.csproj|solutionrelative:dthlap03bai3.2\\controllers\\dthrazorviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48FE10EA-D6D2-476A-8F2F-B44F97EF935D}|DthLap03Bai3.2\\DthLap03Bai3.2.csproj|C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson03\\DthLap03Bai3.1\\dthlap03bai3.2\\views\\dthrazorview\\variable_if_else_switch.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{48FE10EA-D6D2-476A-8F2F-B44F97EF935D}|DthLap03Bai3.2\\DthLap03Bai3.2.csproj|solutionrelative:dthlap03bai3.2\\views\\dthrazorview\\variable_if_else_switch.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478764F5-C318-4D18-AC72-A467330A21C9}|DthLap03Bai3.1\\DthLap03Bai3.1.csproj|C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson03\\DthLap03Bai3.1\\dthlap03bai3.1\\controllers\\dthpassingdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{478764F5-C318-4D18-AC72-A467330A21C9}|DthLap03Bai3.1\\DthLap03Bai3.1.csproj|solutionrelative:dthlap03bai3.1\\controllers\\dthpassingdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478764F5-C318-4D18-AC72-A467330A21C9}|DthLap03Bai3.1\\DthLap03Bai3.1.csproj|C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson03\\DthLap03Bai3.1\\dthlap03bai3.1\\views\\dthpassingdata\\vewdatatest.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{478764F5-C318-4D18-AC72-A467330A21C9}|DthLap03Bai3.1\\DthLap03Bai3.1.csproj|solutionrelative:dthlap03bai3.1\\views\\dthpassingdata\\vewdatatest.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478764F5-C318-4D18-AC72-A467330A21C9}|DthLap03Bai3.1\\DthLap03Bai3.1.csproj|C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson03\\DthLap03Bai3.1\\dthlap03bai3.1\\views\\dthpassingdata\\vewbagtest.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{478764F5-C318-4D18-AC72-A467330A21C9}|DthLap03Bai3.1\\DthLap03Bai3.1.csproj|solutionrelative:dthlap03bai3.1\\views\\dthpassingdata\\vewbagtest.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478764F5-C318-4D18-AC72-A467330A21C9}|DthLap03Bai3.1\\DthLap03Bai3.1.csproj|C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson03\\DthLap03Bai3.1\\dthlap03bai3.1\\views\\dthpassingdata\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{478764F5-C318-4D18-AC72-A467330A21C9}|DthLap03Bai3.1\\DthLap03Bai3.1.csproj|solutionrelative:dthlap03bai3.1\\views\\dthpassingdata\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478764F5-C318-4D18-AC72-A467330A21C9}|DthLap03Bai3.1\\DthLap03Bai3.1.csproj|C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson03\\DthLap03Bai3.1\\dthlap03bai3.1\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{478764F5-C318-4D18-AC72-A467330A21C9}|DthLap03Bai3.1\\DthLap03Bai3.1.csproj|solutionrelative:dthlap03bai3.1\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson03\\DthLap03Bai3.1\\DthLab03Bai3.3\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "DthLab03Bai3.3\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson03\\DthLap03Bai3.1\\DthLab03Bai3.3\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "DthLab03Bai3.3\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABcAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-12T06:37:32.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson03\\DthLap03Bai3.1\\DthLab03Bai3.3\\Views\\DthHTMLHelper\\Register.cshtml",
+              "RelativeDocumentMoniker": "DthLab03Bai3.3\\Views\\DthHTMLHelper\\Register.cshtml",
+              "ToolTip": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson03\\DthLap03Bai3.1\\DthLab03Bai3.3\\Views\\DthHTMLHelper\\Register.cshtml",
+              "RelativeToolTip": "DthLab03Bai3.3\\Views\\DthHTMLHelper\\Register.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-12T06:37:01.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormRegister.cshtml",
+              "DocumentMoniker": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson03\\DthLap03Bai3.1\\DthLab03Bai3.3\\Views\\DthHTMLHelper\\FormRegister.cshtml",
+              "RelativeDocumentMoniker": "DthLab03Bai3.3\\Views\\DthHTMLHelper\\FormRegister.cshtml",
+              "ToolTip": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson03\\DthLap03Bai3.1\\DthLab03Bai3.3\\Views\\DthHTMLHelper\\FormRegister.cshtml",
+              "RelativeToolTip": "DthLab03Bai3.3\\Views\\DthHTMLHelper\\FormRegister.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAAcAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-12T06:35:17.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DthHTMLHelperController.cs",
+              "DocumentMoniker": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson03\\DthLap03Bai3.1\\DthLab03Bai3.3\\Controllers\\DthHTMLHelperController.cs",
+              "RelativeDocumentMoniker": "DthLab03Bai3.3\\Controllers\\DthHTMLHelperController.cs",
+              "ToolTip": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson03\\DthLap03Bai3.1\\DthLab03Bai3.3\\Controllers\\DthHTMLHelperController.cs",
+              "RelativeToolTip": "DthLab03Bai3.3\\Controllers\\DthHTMLHelperController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAwwB0AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T06:27:15.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DthCountry.cs",
+              "DocumentMoniker": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson03\\DthLap03Bai3.1\\DthLab03Bai3.3\\Models\\DthCountry.cs",
+              "RelativeDocumentMoniker": "DthLab03Bai3.3\\Models\\DthCountry.cs",
+              "ToolTip": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson03\\DthLap03Bai3.1\\DthLab03Bai3.3\\Models\\DthCountry.cs",
+              "RelativeToolTip": "DthLab03Bai3.3\\Models\\DthCountry.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T06:26:34.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson03\\DthLap03Bai3.1\\DthLap03Bai3.2\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "DthLap03Bai3.2\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson03\\DthLap03Bai3.1\\DthLap03Bai3.2\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "DthLap03Bai3.2\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAAAQAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-12T06:24:28.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson03\\DthLap03Bai3.1\\DthLap03Bai3.2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "DthLap03Bai3.2\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson03\\DthLap03Bai3.1\\DthLap03Bai3.2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "DthLap03Bai3.2\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-12T06:14:21.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Variable_If_Else_Switch.cshtml",
+              "DocumentMoniker": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson03\\DthLap03Bai3.1\\DthLap03Bai3.2\\Views\\DthRazorView\\Variable_If_Else_Switch.cshtml",
+              "RelativeDocumentMoniker": "DthLap03Bai3.2\\Views\\DthRazorView\\Variable_If_Else_Switch.cshtml",
+              "ToolTip": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson03\\DthLap03Bai3.1\\DthLap03Bai3.2\\Views\\DthRazorView\\Variable_If_Else_Switch.cshtml",
+              "RelativeToolTip": "DthLap03Bai3.2\\Views\\DthRazorView\\Variable_If_Else_Switch.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-12T06:09:44.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DthRazorViewController.cs",
+              "DocumentMoniker": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson03\\DthLap03Bai3.1\\DthLap03Bai3.2\\Controllers\\DthRazorViewController.cs",
+              "RelativeDocumentMoniker": "DthLap03Bai3.2\\Controllers\\DthRazorViewController.cs",
+              "ToolTip": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson03\\DthLap03Bai3.1\\DthLap03Bai3.2\\Controllers\\DthRazorViewController.cs",
+              "RelativeToolTip": "DthLap03Bai3.2\\Controllers\\DthRazorViewController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T06:08:57.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson03\\DthLap03Bai3.1\\DthLap03Bai3.1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "DthLap03Bai3.1\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson03\\DthLap03Bai3.1\\DthLap03Bai3.1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "DthLap03Bai3.1\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-12T06:02:14.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Array_Loop.cshtml",
+              "DocumentMoniker": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson03\\DthLap03Bai3.1\\DthLap03Bai3.2\\Views\\DthRazorView\\Array_Loop.cshtml",
+              "RelativeDocumentMoniker": "DthLap03Bai3.2\\Views\\DthRazorView\\Array_Loop.cshtml",
+              "ToolTip": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson03\\DthLap03Bai3.1\\DthLap03Bai3.2\\Views\\DthRazorView\\Array_Loop.cshtml",
+              "RelativeToolTip": "DthLap03Bai3.2\\Views\\DthRazorView\\Array_Loop.cshtml",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAAADcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-12T06:12:51.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson03\\DthLap03Bai3.1\\DthLap03Bai3.1\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "DthLap03Bai3.1\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson03\\DthLap03Bai3.1\\DthLap03Bai3.1\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "DthLap03Bai3.1\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-12T06:02:10.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson03\\DthLap03Bai3.1\\DthLap03Bai3.1\\Views\\DthPassingData\\About.cshtml",
+              "RelativeDocumentMoniker": "DthLap03Bai3.1\\Views\\DthPassingData\\About.cshtml",
+              "ToolTip": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson03\\DthLap03Bai3.1\\DthLap03Bai3.1\\Views\\DthPassingData\\About.cshtml",
+              "RelativeToolTip": "DthLap03Bai3.1\\Views\\DthPassingData\\About.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-12T06:00:03.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "VewBagTest.cshtml",
+              "DocumentMoniker": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson03\\DthLap03Bai3.1\\DthLap03Bai3.1\\Views\\DthPassingData\\VewBagTest.cshtml",
+              "RelativeDocumentMoniker": "DthLap03Bai3.1\\Views\\DthPassingData\\VewBagTest.cshtml",
+              "ToolTip": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson03\\DthLap03Bai3.1\\DthLap03Bai3.1\\Views\\DthPassingData\\VewBagTest.cshtml",
+              "RelativeToolTip": "DthLap03Bai3.1\\Views\\DthPassingData\\VewBagTest.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-12T05:59:32.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "VewDataTest.cshtml",
+              "DocumentMoniker": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson03\\DthLap03Bai3.1\\DthLap03Bai3.1\\Views\\DthPassingData\\VewDataTest.cshtml",
+              "RelativeDocumentMoniker": "DthLap03Bai3.1\\Views\\DthPassingData\\VewDataTest.cshtml",
+              "ToolTip": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson03\\DthLap03Bai3.1\\DthLap03Bai3.1\\Views\\DthPassingData\\VewDataTest.cshtml",
+              "RelativeToolTip": "DthLap03Bai3.1\\Views\\DthPassingData\\VewDataTest.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-12T05:58:58.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DthPassingDataController.cs",
+              "DocumentMoniker": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson03\\DthLap03Bai3.1\\DthLap03Bai3.1\\Controllers\\DthPassingDataController.cs",
+              "RelativeDocumentMoniker": "DthLap03Bai3.1\\Controllers\\DthPassingDataController.cs",
+              "ToolTip": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson03\\DthLap03Bai3.1\\DthLap03Bai3.1\\Controllers\\DthPassingDataController.cs",
+              "RelativeToolTip": "DthLap03Bai3.1\\Controllers\\DthPassingDataController.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAADwvykAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T05:56:16.02Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
