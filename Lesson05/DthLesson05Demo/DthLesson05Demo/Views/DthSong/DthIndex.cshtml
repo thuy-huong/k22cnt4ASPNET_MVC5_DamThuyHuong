@@ -1,0 +1,51 @@
+﻿@model IEnumerable<DthLesson05Demo.Models.DthSong>
+
+@{
+    ViewBag.Title = "Dth: Danh sách bài hát";
+}
+
+<h2>Dth: Danh sách bài hát</h2>
+
+<p>
+    @Html.ActionLink("Create New", "DthCreate")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.DthTitle)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DthAuthor)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DthArtist)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DthYearlekease)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.DthTitle)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DthAuthor)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DthArtist)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DthYearlekease)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>

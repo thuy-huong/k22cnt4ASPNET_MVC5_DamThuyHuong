@@ -1,0 +1,66 @@
+﻿@model Dth_BaiThiGiuaKi.Models.DthCustomer
+
+@{
+    ViewBag.Title = "Chi tiết khách hàng";
+}
+
+<h2 class="text-center">Chi tiết khách hàng</h2>
+
+<div>
+    <h4>DthCustomer</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Dth_2210900028_CustId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Dth_2210900028_CustId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Dth_FullName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Dth_FullName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Dth_Address)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Dth_Address)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Dth_Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Dth_Email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Dth_Phone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Dth_Phone)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Dth_Balance)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Dth_Balance)
+        </dd>
+
+    </dl>
+</div>
+<p>
+   
+    @Html.ActionLink("Back to List", "DthIndex")
+</p>

@@ -1,0 +1,2 @@
+C:\K22CNT4-ASPNETMVC\k22cnt4ASPNET_MVC5_DamThuyHuong\lesson04\DthLab04.1\DthLab04.1\obj\Debug\DthLab04.1.csproj.AssemblyReference.cache
+C:\K22CNT4-ASPNETMVC\k22cnt4ASPNET_MVC5_DamThuyHuong\lesson04\DthLab04.1\DthLab04.1\obj\Debug\DthLab04.1.csproj.CoreCompileInputs.cache

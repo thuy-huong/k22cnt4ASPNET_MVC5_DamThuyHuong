@@ -1,0 +1,136 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\Lesson05\\DthLab05_1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8040492F-DC92-461B-8DB2-2B61624F0A90}|DthLab05_1\\DthLab05_1.csproj|C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\Lesson05\\DthLab05_1\\dthlab05_1\\views\\dthmember\\dthcreatethree.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8040492F-DC92-461B-8DB2-2B61624F0A90}|DthLab05_1\\DthLab05_1.csproj|solutionrelative:dthlab05_1\\views\\dthmember\\dthcreatethree.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8040492F-DC92-461B-8DB2-2B61624F0A90}|DthLab05_1\\DthLab05_1.csproj|c:\\k22cnt4-aspnetmvc\\k22cnt4aspnet_mvc5_damthuyhuong\\lesson05\\dthlab05_1\\dthlab05_1\\views\\dthmember\\dthcreatetwo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8040492F-DC92-461B-8DB2-2B61624F0A90}|DthLab05_1\\DthLab05_1.csproj|solutionrelative:dthlab05_1\\views\\dthmember\\dthcreatetwo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8040492F-DC92-461B-8DB2-2B61624F0A90}|DthLab05_1\\DthLab05_1.csproj|C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\Lesson05\\DthLab05_1\\dthlab05_1\\views\\dthmember\\dthcreateone.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8040492F-DC92-461B-8DB2-2B61624F0A90}|DthLab05_1\\DthLab05_1.csproj|solutionrelative:dthlab05_1\\views\\dthmember\\dthcreateone.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8040492F-DC92-461B-8DB2-2B61624F0A90}|DthLab05_1\\DthLab05_1.csproj|c:\\k22cnt4-aspnetmvc\\k22cnt4aspnet_mvc5_damthuyhuong\\lesson05\\dthlab05_1\\dthlab05_1\\controllers\\dthmembercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8040492F-DC92-461B-8DB2-2B61624F0A90}|DthLab05_1\\DthLab05_1.csproj|solutionrelative:dthlab05_1\\controllers\\dthmembercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8040492F-DC92-461B-8DB2-2B61624F0A90}|DthLab05_1\\DthLab05_1.csproj|C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\Lesson05\\DthLab05_1\\dthlab05_1\\models\\dthmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8040492F-DC92-461B-8DB2-2B61624F0A90}|DthLab05_1\\DthLab05_1.csproj|solutionrelative:dthlab05_1\\models\\dthmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8040492F-DC92-461B-8DB2-2B61624F0A90}|DthLab05_1\\DthLab05_1.csproj|C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\Lesson05\\DthLab05_1\\dthlab05_1\\views\\dthmember\\dthdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8040492F-DC92-461B-8DB2-2B61624F0A90}|DthLab05_1\\DthLab05_1.csproj|solutionrelative:dthlab05_1\\views\\dthmember\\dthdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8040492F-DC92-461B-8DB2-2B61624F0A90}|DthLab05_1\\DthLab05_1.csproj|C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\Lesson05\\DthLab05_1\\dthlab05_1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8040492F-DC92-461B-8DB2-2B61624F0A90}|DthLab05_1\\DthLab05_1.csproj|solutionrelative:dthlab05_1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DthCreateTwo.cshtml",
+              "DocumentMoniker": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\Lesson05\\DthLab05_1\\DthLab05_1\\Views\\DthMember\\DthCreateTwo.cshtml",
+              "RelativeDocumentMoniker": "DthLab05_1\\Views\\DthMember\\DthCreateTwo.cshtml",
+              "ToolTip": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\Lesson05\\DthLab05_1\\DthLab05_1\\Views\\DthMember\\DthCreateTwo.cshtml",
+              "RelativeToolTip": "DthLab05_1\\Views\\DthMember\\DthCreateTwo.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T08:46:22.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DthDetails.cshtml",
+              "DocumentMoniker": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\Lesson05\\DthLab05_1\\DthLab05_1\\Views\\DthMember\\DthDetails.cshtml",
+              "RelativeDocumentMoniker": "DthLab05_1\\Views\\DthMember\\DthDetails.cshtml",
+              "ToolTip": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\Lesson05\\DthLab05_1\\DthLab05_1\\Views\\DthMember\\DthDetails.cshtml",
+              "RelativeToolTip": "DthLab05_1\\Views\\DthMember\\DthDetails.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAD8AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T05:25:30.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DthMemberController.cs",
+              "DocumentMoniker": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\Lesson05\\DthLab05_1\\DthLab05_1\\Controllers\\DthMemberController.cs",
+              "RelativeDocumentMoniker": "DthLab05_1\\Controllers\\DthMemberController.cs",
+              "ToolTip": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\Lesson05\\DthLab05_1\\DthLab05_1\\Controllers\\DthMemberController.cs",
+              "RelativeToolTip": "DthLab05_1\\Controllers\\DthMemberController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAuwBQAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T05:03:16.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DthMember.cs",
+              "DocumentMoniker": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\Lesson05\\DthLab05_1\\DthLab05_1\\Models\\DthMember.cs",
+              "RelativeDocumentMoniker": "DthLab05_1\\Models\\DthMember.cs",
+              "ToolTip": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\Lesson05\\DthLab05_1\\DthLab05_1\\Models\\DthMember.cs",
+              "RelativeToolTip": "DthLab05_1\\Models\\DthMember.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T04:46:31.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DthCreateThree.cshtml",
+              "DocumentMoniker": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\Lesson05\\DthLab05_1\\DthLab05_1\\Views\\DthMember\\DthCreateThree.cshtml",
+              "RelativeDocumentMoniker": "DthLab05_1\\Views\\DthMember\\DthCreateThree.cshtml",
+              "ToolTip": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\Lesson05\\DthLab05_1\\DthLab05_1\\Views\\DthMember\\DthCreateThree.cshtml",
+              "RelativeToolTip": "DthLab05_1\\Views\\DthMember\\DthCreateThree.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T05:37:10.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DthCreateOne.cshtml",
+              "DocumentMoniker": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\Lesson05\\DthLab05_1\\DthLab05_1\\Views\\DthMember\\DthCreateOne.cshtml",
+              "RelativeDocumentMoniker": "DthLab05_1\\Views\\DthMember\\DthCreateOne.cshtml",
+              "ToolTip": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\Lesson05\\DthLab05_1\\DthLab05_1\\Views\\DthMember\\DthCreateOne.cshtml",
+              "RelativeToolTip": "DthLab05_1\\Views\\DthMember\\DthCreateOne.cshtml",
+              "ViewState": "AQIAACAAAAAAAAAAAAAcwEIAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T05:31:09.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\Lesson05\\DthLab05_1\\DthLab05_1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "DthLab05_1\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\Lesson05\\DthLab05_1\\DthLab05_1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "DthLab05_1\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T04:58:43.74Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

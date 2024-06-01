@@ -1,0 +1,63 @@
+﻿@model IEnumerable<Dth_BaiThiGiuaKi.Models.DthCustomer>
+
+@{
+    ViewBag.Title = "Thêm thông tin khách hàng";
+}
+
+<h2>DthIndex</h2>
+
+<p>
+    @Html.ActionLink("Create New", "DthDetail")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Dth_2210900028_CustId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Dth_FullName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Dth_Address)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Dth_Email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Dth_Phone)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Dth_Balance)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Dth_2210900028_CustId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Dth_FullName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Dth_Address)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Dth_Email)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Dth_Phone)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Dth_Balance)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "DthEdit", new { id = item.Dth_2210900028_CustId }) |
+            @Html.ActionLink("Details", "DthCreate", new { id = item.Dth_2210900028_CustId }) |
+            @Html.ActionLink("Delete", "DthDelete", new { id = item.Dth_2210900028_CustId })
+        </td>
+    </tr>
+}
+
+</table>
