@@ -1,0 +1,33 @@
+﻿@model IEnumerable<DthLesson06Cf.Models.DthCategory>
+
+@{
+    ViewBag.Title = "DthIndex";
+}
+
+<h2>DthIndex</h2>
+
+<p>
+    @Html.ActionLink("Create New", "DthCreate")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.DthCategoryName)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.DthCategoryName)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.DthId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.DthId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.DthId })
+        </td>
+    </tr>
+}
+
+</table>

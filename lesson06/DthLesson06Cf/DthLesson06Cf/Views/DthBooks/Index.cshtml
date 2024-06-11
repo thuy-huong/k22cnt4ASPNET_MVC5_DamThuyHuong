@@ -1,0 +1,69 @@
+﻿@model IEnumerable<DthLesson06Cf.Models.DthBook>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.DthBookId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DthTitle)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DthAuthor)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DthYear)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DthPulisher)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DthPicture)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DthCategoryId)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.DthBookId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DthTitle)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DthAuthor)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DthYear)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DthPulisher)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DthPicture)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DthCategoryId)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.DthId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.DthId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.DthId })
+        </td>
+    </tr>
+}
+
+</table>
