@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DthK22CNT4Lesson07DbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="dthKhoa">
+    <Key>
+      <PropertyRef Name="DthMaKhoa" />
+    </Key>
+    <Property Name="DthMaKhoa" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="DthTenKhoa" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DthTrangThai" Type="Boolean" />
+    <NavigationProperty Name="dthSinhViens" Relationship="DthK22CNT4Lesson07DbModel.FK_dthSinhVien_dthKhoa" FromRole="dthKhoa" ToRole="dthSinhVien" />
+  </EntityType>
+  <EntityType Name="dthSinhVien">
+    <Key>
+      <PropertyRef Name="DthMaSV" />
+    </Key>
+    <Property Name="DthMaSV" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="DthHoSV" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DthTenSV" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DthNgaySinh" Type="DateTime" Precision="0" />
+    <Property Name="DthPhai" Type="Boolean" />
+    <Property Name="DthPhone" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="DthEmail" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DthMaKh" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <NavigationProperty Name="dthKhoa" Relationship="DthK22CNT4Lesson07DbModel.FK_dthSinhVien_dthKhoa" FromRole="dthSinhVien" ToRole="dthKhoa" />
+  </EntityType>
+  <EntityContainer Name="DthK22CNT4Lesson07DbEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="dthKhoas" EntityType="Self.dthKhoa" />
+    <EntitySet Name="dthSinhViens" EntityType="Self.dthSinhVien" />
+    <EntitySet Name="sysdiagrams" EntityType="DthK22CNT4Lesson07DbModel.sysdiagram" />
+    <AssociationSet Name="FK_dthSinhVien_dthKhoa" Association="DthK22CNT4Lesson07DbModel.FK_dthSinhVien_dthKhoa">
+      <End Role="dthKhoa" EntitySet="dthKhoas" />
+      <End Role="dthSinhVien" EntitySet="dthSinhViens" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <Association Name="FK_dthSinhVien_dthKhoa">
+    <End Type="DthK22CNT4Lesson07DbModel.dthKhoa" Role="dthKhoa" Multiplicity="0..1" />
+    <End Type="DthK22CNT4Lesson07DbModel.dthSinhVien" Role="dthSinhVien" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="dthKhoa">
+        <PropertyRef Name="DthMaKhoa" />
+      </Principal>
+      <Dependent Role="dthSinhVien">
+        <PropertyRef Name="DthMaKh" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

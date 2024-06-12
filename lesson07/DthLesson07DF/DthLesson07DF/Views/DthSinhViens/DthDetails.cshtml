@@ -1,0 +1,74 @@
+﻿@model DthLesson07DF.Models.dthSinhVien
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>dthSinhVien</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.DthHoSV)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DthHoSV)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DthTenSV)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DthTenSV)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DthNgaySinh)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DthNgaySinh)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DthPhai)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DthPhai)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DthPhone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DthPhone)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DthEmail)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DthEmail)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.dthKhoa.DthTenKhoa)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.dthKhoa.DthTenKhoa)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "DthEdit", new { id = Model.DthMaSV.Trim() }) |
+    @Html.ActionLink("Back to List", "DthIndex")
+</p>

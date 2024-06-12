@@ -1,0 +1,69 @@
+﻿@model IEnumerable<DthLesson07DF.Models.dthSinhVien>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "DthCreate")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.DthHoSV)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DthTenSV)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DthNgaySinh)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DthPhai)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DthPhone)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DthEmail)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.dthKhoa.DthTenKhoa)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.DthHoSV)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DthTenSV)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DthNgaySinh)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DthPhai)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DthPhone)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DthEmail)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.dthKhoa.DthTenKhoa)
+        </td>
+        <td>
+            @Html.ActionLink("Dth: Edit", "DthEdit", new { id=item.DthMaSV.Trim() }) |
+            @Html.ActionLink("Dth: Details", "DthDetails", new { id=item.DthMaSV.Trim() }) |
+            @Html.ActionLink("Dth: Delete", "DthDelete", new { id=item.DthMaSV.Trim() })
+        </td>
+    </tr>
+}
+
+</table>
