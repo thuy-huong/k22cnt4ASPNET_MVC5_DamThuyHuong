@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Dth_qlSinhVienModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="DthKetQua">
+    <Key>
+      <PropertyRef Name="MaKQ" />
+    </Key>
+    <Property Name="MaKQ" Type="Int32" Nullable="false" />
+    <Property Name="MaSV" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="MaMH" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="Diem" Type="Double" />
+    <NavigationProperty Name="DthMonHoc" Relationship="Self.FK_DthKetQua_DthMonHoc" FromRole="DthKetQua" ToRole="DthMonHoc" />
+    <NavigationProperty Name="DthSinhVien" Relationship="Self.FK_DthKetQua_DthSinhVien" FromRole="DthKetQua" ToRole="DthSinhVien" />
+  </EntityType>
+  <EntityType Name="DthKhoa">
+    <Key>
+      <PropertyRef Name="MaKH" />
+    </Key>
+    <Property Name="MaKH" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="TenKH" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="DthSinhViens" Relationship="Self.FK_DthSinhVien_DthKhoa" FromRole="DthKhoa" ToRole="DthSinhVien" />
+  </EntityType>
+  <EntityType Name="DthMonHoc">
+    <Key>
+      <PropertyRef Name="MaMH" />
+    </Key>
+    <Property Name="MaMH" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="TenMh" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="SoTiet" Type="Int32" />
+    <NavigationProperty Name="DthKetQuas" Relationship="Self.FK_DthKetQua_DthMonHoc" FromRole="DthMonHoc" ToRole="DthKetQua" />
+  </EntityType>
+  <EntityType Name="DthSinhVien">
+    <Key>
+      <PropertyRef Name="MaSV" />
+    </Key>
+    <Property Name="MaSV" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="HoSV" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="TenSV" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Phai" Type="Boolean" />
+    <Property Name="NgaySinh" Type="DateTime" Precision="0" />
+    <Property Name="NoiSinh" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="MaKH" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="HocBong" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="DiemTrungBinh" Type="Double" />
+    <NavigationProperty Name="DthKetQuas" Relationship="Self.FK_DthKetQua_DthSinhVien" FromRole="DthSinhVien" ToRole="DthKetQua" />
+    <NavigationProperty Name="DthKhoa" Relationship="Self.FK_DthSinhVien_DthKhoa" FromRole="DthSinhVien" ToRole="DthKhoa" />
+  </EntityType>
+  <Association Name="FK_DthKetQua_DthMonHoc">
+    <End Role="DthMonHoc" Type="Self.DthMonHoc" Multiplicity="0..1" />
+    <End Role="DthKetQua" Type="Self.DthKetQua" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DthMonHoc">
+        <PropertyRef Name="MaMH" />
+      </Principal>
+      <Dependent Role="DthKetQua">
+        <PropertyRef Name="MaMH" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DthKetQua_DthSinhVien">
+    <End Role="DthSinhVien" Type="Self.DthSinhVien" Multiplicity="0..1" />
+    <End Role="DthKetQua" Type="Self.DthKetQua" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DthSinhVien">
+        <PropertyRef Name="MaSV" />
+      </Principal>
+      <Dependent Role="DthKetQua">
+        <PropertyRef Name="MaSV" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DthSinhVien_DthKhoa">
+    <End Role="DthKhoa" Type="Self.DthKhoa" Multiplicity="0..1" />
+    <End Role="DthSinhVien" Type="Self.DthSinhVien" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DthKhoa">
+        <PropertyRef Name="MaKH" />
+      </Principal>
+      <Dependent Role="DthSinhVien">
+        <PropertyRef Name="MaKH" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Dth_qlSinhVienEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="DthKetQuas" EntityType="Self.DthKetQua" />
+    <EntitySet Name="DthKhoas" EntityType="Self.DthKhoa" />
+    <EntitySet Name="DthMonHocs" EntityType="Self.DthMonHoc" />
+    <EntitySet Name="DthSinhViens" EntityType="Self.DthSinhVien" />
+    <AssociationSet Name="FK_DthKetQua_DthMonHoc" Association="Self.FK_DthKetQua_DthMonHoc">
+      <End Role="DthMonHoc" EntitySet="DthMonHocs" />
+      <End Role="DthKetQua" EntitySet="DthKetQuas" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DthKetQua_DthSinhVien" Association="Self.FK_DthKetQua_DthSinhVien">
+      <End Role="DthSinhVien" EntitySet="DthSinhViens" />
+      <End Role="DthKetQua" EntitySet="DthKetQuas" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DthSinhVien_DthKhoa" Association="Self.FK_DthSinhVien_DthKhoa">
+      <End Role="DthKhoa" EntitySet="DthKhoas" />
+      <End Role="DthSinhVien" EntitySet="DthSinhViens" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

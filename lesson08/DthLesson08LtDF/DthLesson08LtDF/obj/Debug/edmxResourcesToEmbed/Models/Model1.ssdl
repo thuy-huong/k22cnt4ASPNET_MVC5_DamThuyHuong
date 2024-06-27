@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Dth_qlSinhVienModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="DthKetQua">
+    <Key>
+      <PropertyRef Name="MaKQ" />
+    </Key>
+    <Property Name="MaKQ" Type="int" Nullable="false" />
+    <Property Name="MaSV" Type="nchar" MaxLength="10" />
+    <Property Name="MaMH" Type="nchar" MaxLength="10" />
+    <Property Name="Diem" Type="float" />
+  </EntityType>
+  <EntityType Name="DthKhoa">
+    <Key>
+      <PropertyRef Name="MaKH" />
+    </Key>
+    <Property Name="MaKH" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="TenKH" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="DthMonHoc">
+    <Key>
+      <PropertyRef Name="MaMH" />
+    </Key>
+    <Property Name="MaMH" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="TenMh" Type="nvarchar" MaxLength="100" />
+    <Property Name="SoTiet" Type="int" />
+  </EntityType>
+  <EntityType Name="DthSinhVien">
+    <Key>
+      <PropertyRef Name="MaSV" />
+    </Key>
+    <Property Name="MaSV" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="HoSV" Type="nvarchar" MaxLength="100" />
+    <Property Name="TenSV" Type="nvarchar" MaxLength="100" />
+    <Property Name="Phai" Type="bit" />
+    <Property Name="NgaySinh" Type="date" />
+    <Property Name="NoiSinh" Type="nvarchar" MaxLength="200" />
+    <Property Name="MaKH" Type="nchar" MaxLength="10" />
+    <Property Name="HocBong" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="DiemTrungBinh" Type="float" />
+  </EntityType>
+  <Association Name="FK_DthKetQua_DthMonHoc">
+    <End Role="DthMonHoc" Type="Self.DthMonHoc" Multiplicity="0..1" />
+    <End Role="DthKetQua" Type="Self.DthKetQua" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DthMonHoc">
+        <PropertyRef Name="MaMH" />
+      </Principal>
+      <Dependent Role="DthKetQua">
+        <PropertyRef Name="MaMH" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DthKetQua_DthSinhVien">
+    <End Role="DthSinhVien" Type="Self.DthSinhVien" Multiplicity="0..1" />
+    <End Role="DthKetQua" Type="Self.DthKetQua" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DthSinhVien">
+        <PropertyRef Name="MaSV" />
+      </Principal>
+      <Dependent Role="DthKetQua">
+        <PropertyRef Name="MaSV" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DthSinhVien_DthKhoa">
+    <End Role="DthKhoa" Type="Self.DthKhoa" Multiplicity="0..1" />
+    <End Role="DthSinhVien" Type="Self.DthSinhVien" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DthKhoa">
+        <PropertyRef Name="MaKH" />
+      </Principal>
+      <Dependent Role="DthSinhVien">
+        <PropertyRef Name="MaKH" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Dth_qlSinhVienModelStoreContainer">
+    <EntitySet Name="DthKetQua" EntityType="Self.DthKetQua" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DthKhoa" EntityType="Self.DthKhoa" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DthMonHoc" EntityType="Self.DthMonHoc" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DthSinhVien" EntityType="Self.DthSinhVien" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_DthKetQua_DthMonHoc" Association="Self.FK_DthKetQua_DthMonHoc">
+      <End Role="DthMonHoc" EntitySet="DthMonHoc" />
+      <End Role="DthKetQua" EntitySet="DthKetQua" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DthKetQua_DthSinhVien" Association="Self.FK_DthKetQua_DthSinhVien">
+      <End Role="DthSinhVien" EntitySet="DthSinhVien" />
+      <End Role="DthKetQua" EntitySet="DthKetQua" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DthSinhVien_DthKhoa" Association="Self.FK_DthSinhVien_DthKhoa">
+      <End Role="DthKhoa" EntitySet="DthKhoa" />
+      <End Role="DthSinhVien" EntitySet="DthSinhVien" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

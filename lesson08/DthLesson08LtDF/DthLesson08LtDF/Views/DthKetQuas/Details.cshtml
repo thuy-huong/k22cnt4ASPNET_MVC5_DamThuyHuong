@@ -1,0 +1,42 @@
+﻿@model DthLesson08LtDF.Models.DthKetQua
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>DthKetQua</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Diem)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Diem)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DthMonHoc.TenMh)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DthMonHoc.TenMh)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DthSinhVien.HoSV)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DthSinhVien.HoSV)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.MaKQ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

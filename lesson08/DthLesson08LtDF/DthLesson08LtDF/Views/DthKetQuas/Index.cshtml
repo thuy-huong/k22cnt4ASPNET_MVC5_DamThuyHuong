@@ -1,0 +1,47 @@
+﻿@model IEnumerable<DthLesson08LtDF.Models.DthKetQua>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Diem)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DthMonHoc.TenMh)
+        </th>
+        <th>
+            @*@Html.DisplayNameFor(model => model.DthSinhVien.HoSV + model.DthSinhVien.TenSV)*@
+            Họ và tên
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Diem)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DthMonHoc.TenMh)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DthSinhVien.HoSV)
+            @Html.DisplayFor(modelItem => item.DthSinhVien.TenSV)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.MaKQ }) |
+            @Html.ActionLink("Details", "Details", new { id=item.MaKQ }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.MaKQ })
+        </td>
+    </tr>
+}
+
+</table>

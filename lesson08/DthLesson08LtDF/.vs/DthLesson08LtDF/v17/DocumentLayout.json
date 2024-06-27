@@ -1,0 +1,206 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson08\\DthLesson08LtDF\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DFC1322D-73B3-4CAA-8369-9EAB6255C399}|DthLesson08LtDF\\DthLesson08LtDF.csproj|C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson08\\DthLesson08LtDF\\dthlesson08ltdf\\controllers\\dthkhoascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFC1322D-73B3-4CAA-8369-9EAB6255C399}|DthLesson08LtDF\\DthLesson08LtDF.csproj|solutionrelative:dthlesson08ltdf\\controllers\\dthkhoascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFC1322D-73B3-4CAA-8369-9EAB6255C399}|DthLesson08LtDF\\DthLesson08LtDF.csproj|c:\\k22cnt4-aspnetmvc\\k22cnt4aspnet_mvc5_damthuyhuong\\lesson08\\dthlesson08ltdf\\dthlesson08ltdf\\views\\dthketquas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DFC1322D-73B3-4CAA-8369-9EAB6255C399}|DthLesson08LtDF\\DthLesson08LtDF.csproj|solutionrelative:dthlesson08ltdf\\views\\dthketquas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFC1322D-73B3-4CAA-8369-9EAB6255C399}|DthLesson08LtDF\\DthLesson08LtDF.csproj|C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson08\\DthLesson08LtDF\\dthlesson08ltdf\\models\\dthketqua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFC1322D-73B3-4CAA-8369-9EAB6255C399}|DthLesson08LtDF\\DthLesson08LtDF.csproj|solutionrelative:dthlesson08ltdf\\models\\dthketqua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFC1322D-73B3-4CAA-8369-9EAB6255C399}|DthLesson08LtDF\\DthLesson08LtDF.csproj|C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson08\\DthLesson08LtDF\\dthlesson08ltdf\\models\\model1.edmx.diagram||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{DFC1322D-73B3-4CAA-8369-9EAB6255C399}|DthLesson08LtDF\\DthLesson08LtDF.csproj|solutionrelative:dthlesson08ltdf\\models\\model1.edmx.diagram||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFC1322D-73B3-4CAA-8369-9EAB6255C399}|DthLesson08LtDF\\DthLesson08LtDF.csproj|C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson08\\DthLesson08LtDF\\dthlesson08ltdf\\models\\model1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFC1322D-73B3-4CAA-8369-9EAB6255C399}|DthLesson08LtDF\\DthLesson08LtDF.csproj|solutionrelative:dthlesson08ltdf\\models\\model1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFC1322D-73B3-4CAA-8369-9EAB6255C399}|DthLesson08LtDF\\DthLesson08LtDF.csproj|C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson08\\DthLesson08LtDF\\dthlesson08ltdf\\models\\model1.context.tt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{DFC1322D-73B3-4CAA-8369-9EAB6255C399}|DthLesson08LtDF\\DthLesson08LtDF.csproj|solutionrelative:dthlesson08ltdf\\models\\model1.context.tt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFC1322D-73B3-4CAA-8369-9EAB6255C399}|DthLesson08LtDF\\DthLesson08LtDF.csproj|C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson08\\DthLesson08LtDF\\dthlesson08ltdf\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{DFC1322D-73B3-4CAA-8369-9EAB6255C399}|DthLesson08LtDF\\DthLesson08LtDF.csproj|solutionrelative:dthlesson08ltdf\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFC1322D-73B3-4CAA-8369-9EAB6255C399}|DthLesson08LtDF\\DthLesson08LtDF.csproj|C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson08\\DthLesson08LtDF\\dthlesson08ltdf\\views\\dthketquas\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DFC1322D-73B3-4CAA-8369-9EAB6255C399}|DthLesson08LtDF\\DthLesson08LtDF.csproj|solutionrelative:dthlesson08ltdf\\views\\dthketquas\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFC1322D-73B3-4CAA-8369-9EAB6255C399}|DthLesson08LtDF\\DthLesson08LtDF.csproj|C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson08\\DthLesson08LtDF\\dthlesson08ltdf\\views\\dthketquas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DFC1322D-73B3-4CAA-8369-9EAB6255C399}|DthLesson08LtDF\\DthLesson08LtDF.csproj|solutionrelative:dthlesson08ltdf\\views\\dthketquas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFC1322D-73B3-4CAA-8369-9EAB6255C399}|DthLesson08LtDF\\DthLesson08LtDF.csproj|C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson08\\DthLesson08LtDF\\dthlesson08ltdf\\views\\shared\\_dthlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DFC1322D-73B3-4CAA-8369-9EAB6255C399}|DthLesson08LtDF\\DthLesson08LtDF.csproj|solutionrelative:dthlesson08ltdf\\views\\shared\\_dthlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFC1322D-73B3-4CAA-8369-9EAB6255C399}|DthLesson08LtDF\\DthLesson08LtDF.csproj|C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson08\\DthLesson08LtDF\\dthlesson08ltdf\\views\\dthkhoas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DFC1322D-73B3-4CAA-8369-9EAB6255C399}|DthLesson08LtDF\\DthLesson08LtDF.csproj|solutionrelative:dthlesson08ltdf\\views\\dthkhoas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Model1.Designer.cs",
+              "DocumentMoniker": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson08\\DthLesson08LtDF\\DthLesson08LtDF\\Models\\Model1.Designer.cs",
+              "RelativeDocumentMoniker": "DthLesson08LtDF\\Models\\Model1.Designer.cs",
+              "ToolTip": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson08\\DthLesson08LtDF\\DthLesson08LtDF\\Models\\Model1.Designer.cs",
+              "RelativeToolTip": "DthLesson08LtDF\\Models\\Model1.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T09:12:36.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Model1.Context.tt",
+              "DocumentMoniker": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson08\\DthLesson08LtDF\\DthLesson08LtDF\\Models\\Model1.Context.tt",
+              "RelativeDocumentMoniker": "DthLesson08LtDF\\Models\\Model1.Context.tt",
+              "ToolTip": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson08\\DthLesson08LtDF\\DthLesson08LtDF\\Models\\Model1.Context.tt",
+              "RelativeToolTip": "DthLesson08LtDF\\Models\\Model1.Context.tt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-06-26T09:12:34.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson08\\DthLesson08LtDF\\DthLesson08LtDF\\Models\\Model1.edmx",
+              "RelativeDocumentMoniker": "DthLesson08LtDF\\Models\\Model1.edmx",
+              "ToolTip": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson08\\DthLesson08LtDF\\DthLesson08LtDF\\Models\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "DthLesson08LtDF\\Models\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-06-26T09:12:30.88Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson08\\DthLesson08LtDF\\DthLesson08LtDF\\Views\\DthKetQuas\\Create.cshtml",
+              "RelativeDocumentMoniker": "DthLesson08LtDF\\Views\\DthKetQuas\\Create.cshtml",
+              "ToolTip": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson08\\DthLesson08LtDF\\DthLesson08LtDF\\Views\\DthKetQuas\\Create.cshtml",
+              "RelativeToolTip": "DthLesson08LtDF\\Views\\DthKetQuas\\Create.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-26T09:10:53.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson08\\DthLesson08LtDF\\DthLesson08LtDF\\Views\\DthKetQuas\\Delete.cshtml",
+              "RelativeDocumentMoniker": "DthLesson08LtDF\\Views\\DthKetQuas\\Delete.cshtml",
+              "ToolTip": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson08\\DthLesson08LtDF\\DthLesson08LtDF\\Views\\DthKetQuas\\Delete.cshtml",
+              "RelativeToolTip": "DthLesson08LtDF\\Views\\DthKetQuas\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-26T09:10:30.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DthKhoasController.cs",
+              "DocumentMoniker": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson08\\DthLesson08LtDF\\DthLesson08LtDF\\Controllers\\DthKhoasController.cs",
+              "RelativeDocumentMoniker": "DthLesson08LtDF\\Controllers\\DthKhoasController.cs",
+              "ToolTip": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson08\\DthLesson08LtDF\\DthLesson08LtDF\\Controllers\\DthKhoasController.cs",
+              "RelativeToolTip": "DthLesson08LtDF\\Controllers\\DthKhoasController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T08:58:24.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Model1.edmx.diagram",
+              "DocumentMoniker": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson08\\DthLesson08LtDF\\DthLesson08LtDF\\Models\\Model1.edmx.diagram",
+              "RelativeDocumentMoniker": "DthLesson08LtDF\\Models\\Model1.edmx.diagram",
+              "ToolTip": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson08\\DthLesson08LtDF\\DthLesson08LtDF\\Models\\Model1.edmx.diagram",
+              "RelativeToolTip": "DthLesson08LtDF\\Models\\Model1.edmx.diagram",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-06-26T09:12:37.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DthKetQua.cs",
+              "DocumentMoniker": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson08\\DthLesson08LtDF\\DthLesson08LtDF\\Models\\DthKetQua.cs",
+              "RelativeDocumentMoniker": "DthLesson08LtDF\\Models\\DthKetQua.cs",
+              "ToolTip": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson08\\DthLesson08LtDF\\DthLesson08LtDF\\Models\\DthKetQua.cs",
+              "RelativeToolTip": "DthLesson08LtDF\\Models\\DthKetQua.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABQAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T09:12:39.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson08\\DthLesson08LtDF\\DthLesson08LtDF\\Views\\DthKetQuas\\Index.cshtml",
+              "RelativeDocumentMoniker": "DthLesson08LtDF\\Views\\DthKetQuas\\Index.cshtml",
+              "ToolTip": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson08\\DthLesson08LtDF\\DthLesson08LtDF\\Views\\DthKetQuas\\Index.cshtml",
+              "RelativeToolTip": "DthLesson08LtDF\\Views\\DthKetQuas\\Index.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABQAAABfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-26T09:06:50.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson08\\DthLesson08LtDF\\DthLesson08LtDF\\Views\\DthKhoas\\Create.cshtml",
+              "RelativeDocumentMoniker": "DthLesson08LtDF\\Views\\DthKhoas\\Create.cshtml",
+              "ToolTip": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson08\\DthLesson08LtDF\\DthLesson08LtDF\\Views\\DthKhoas\\Create.cshtml",
+              "RelativeToolTip": "DthLesson08LtDF\\Views\\DthKhoas\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-26T08:59:39.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_DthLayout.cshtml",
+              "DocumentMoniker": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson08\\DthLesson08LtDF\\DthLesson08LtDF\\Views\\Shared\\_DthLayout.cshtml",
+              "RelativeDocumentMoniker": "DthLesson08LtDF\\Views\\Shared\\_DthLayout.cshtml",
+              "ToolTip": "C:\\K22CNT4-ASPNETMVC\\k22cnt4ASPNET_MVC5_DamThuyHuong\\lesson08\\DthLesson08LtDF\\DthLesson08LtDF\\Views\\Shared\\_DthLayout.cshtml",
+              "RelativeToolTip": "DthLesson08LtDF\\Views\\Shared\\_DthLayout.cshtml",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAuwBkAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-26T08:55:09.963Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
