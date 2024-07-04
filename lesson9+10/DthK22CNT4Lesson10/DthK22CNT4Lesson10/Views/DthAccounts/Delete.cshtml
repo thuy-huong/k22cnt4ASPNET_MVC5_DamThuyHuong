@@ -1,0 +1,73 @@
+﻿@model DthK22CNT4Lesson10.Models.DthAccount
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_DthLayout.cshtml";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>DthAccount</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.DthUserName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DthUserName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DthPassword)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DthPassword)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DthFullName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DthFullName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DthEmail)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DthEmail)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DthPhone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DthPhone)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DthActive)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DthActive)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

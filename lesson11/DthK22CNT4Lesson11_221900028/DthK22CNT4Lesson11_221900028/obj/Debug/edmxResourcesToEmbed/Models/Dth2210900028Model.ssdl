@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DthK22CNT4Lesson11DbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="DthCategory">
+    <Key>
+      <PropertyRef Name="DthID" />
+    </Key>
+    <Property Name="DthID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DthCateName" Type="nvarchar" MaxLength="50" />
+    <Property Name="DthStatus" Type="bit" />
+  </EntityType>
+  <EntityType Name="DthProduct">
+    <Key>
+      <PropertyRef Name="DthId" />
+    </Key>
+    <Property Name="DthId" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="DthProName" Type="nvarchar" MaxLength="50" />
+    <Property Name="DthQty" Type="int" />
+    <Property Name="Dthprice" Type="float" />
+    <Property Name="DthCateId" Type="int" />
+    <Property Name="DthActive" Type="bit" />
+  </EntityType>
+  <Association Name="FK_DthProduct_DthCategory">
+    <End Role="DthCategory" Type="Self.DthCategory" Multiplicity="0..1" />
+    <End Role="DthProduct" Type="Self.DthProduct" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DthCategory">
+        <PropertyRef Name="DthID" />
+      </Principal>
+      <Dependent Role="DthProduct">
+        <PropertyRef Name="DthCateId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DthK22CNT4Lesson11DbModelStoreContainer">
+    <EntitySet Name="DthCategory" EntityType="Self.DthCategory" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DthProduct" EntityType="Self.DthProduct" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_DthProduct_DthCategory" Association="Self.FK_DthProduct_DthCategory">
+      <End Role="DthCategory" EntitySet="DthCategory" />
+      <End Role="DthProduct" EntitySet="DthProduct" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

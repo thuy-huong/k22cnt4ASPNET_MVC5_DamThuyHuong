@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DthK22CNT4Lesson11DbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="DthCategory">
+    <Key>
+      <PropertyRef Name="DthID" />
+    </Key>
+    <Property Name="DthID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DthCateName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DthStatus" Type="Boolean" />
+    <NavigationProperty Name="DthProducts" Relationship="Self.FK_DthProduct_DthCategory" FromRole="DthCategory" ToRole="DthProduct" />
+  </EntityType>
+  <EntityType Name="DthProduct">
+    <Key>
+      <PropertyRef Name="DthId" />
+    </Key>
+    <Property Name="DthId" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="DthProName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DthQty" Type="Int32" />
+    <Property Name="Dthprice" Type="Double" />
+    <Property Name="DthCateId" Type="Int32" />
+    <Property Name="DthActive" Type="Boolean" />
+    <NavigationProperty Name="DthCategory" Relationship="Self.FK_DthProduct_DthCategory" FromRole="DthProduct" ToRole="DthCategory" />
+  </EntityType>
+  <Association Name="FK_DthProduct_DthCategory">
+    <End Role="DthCategory" Type="Self.DthCategory" Multiplicity="0..1" />
+    <End Role="DthProduct" Type="Self.DthProduct" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DthCategory">
+        <PropertyRef Name="DthID" />
+      </Principal>
+      <Dependent Role="DthProduct">
+        <PropertyRef Name="DthCateId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DthK22CNT4Lesson11DbEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="DthCategories" EntityType="Self.DthCategory" />
+    <EntitySet Name="DthProducts" EntityType="Self.DthProduct" />
+    <AssociationSet Name="FK_DthProduct_DthCategory" Association="Self.FK_DthProduct_DthCategory">
+      <End Role="DthCategory" EntitySet="DthCategories" />
+      <End Role="DthProduct" EntitySet="DthProducts" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

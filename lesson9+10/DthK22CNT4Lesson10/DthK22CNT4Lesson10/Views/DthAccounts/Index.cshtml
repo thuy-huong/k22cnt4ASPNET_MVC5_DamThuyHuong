@@ -1,0 +1,64 @@
+﻿@model IEnumerable<DthK22CNT4Lesson10.Models.DthAccount>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_DthLayout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.DthUserName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DthPassword)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DthFullName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DthEmail)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DthPhone)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DthActive)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.DthUserName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DthPassword)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DthFullName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DthEmail)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DthPhone)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DthActive)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.DthId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.DthId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.DthId })
+        </td>
+    </tr>
+}
+
+</table>

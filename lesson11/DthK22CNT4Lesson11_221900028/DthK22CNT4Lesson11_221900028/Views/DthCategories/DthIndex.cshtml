@@ -1,0 +1,55 @@
+﻿@model IEnumerable<DthK22CNT4Lesson11_221900028.Models.DthCategory>
+
+@{
+    ViewBag.Title = "Danh mục sản phẩm";
+    Layout = "~/Views/Shared/_Dth2210900028Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @* @Html.ActionLink("Create New", "Create")*@
+</p>
+<a href="/DthCategories/create" class="btn btn-primary my-3">Thêm mới</a>
+<table class="table table-bordered">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.DthID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DthCateName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DthStatus)
+        </th>
+        <th>Chức năng</th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.DthID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DthCateName)
+        </td>
+        <td>
+           @**@ @Html.DisplayFor(modelItem => item.DthStatus)
+            @if (item.DthStatus == true)
+            {
+                <span style="color:green">Hoạt đông</span>
+            }
+            else
+            {
+                <span style="color:red">Không hoạt đông</span>
+            }
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id = item.DthID }) |
+            @Html.ActionLink("Details", "Details", new { id = item.DthID }) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.DthID })
+        </td>
+    </tr>
+}
+
+</table>

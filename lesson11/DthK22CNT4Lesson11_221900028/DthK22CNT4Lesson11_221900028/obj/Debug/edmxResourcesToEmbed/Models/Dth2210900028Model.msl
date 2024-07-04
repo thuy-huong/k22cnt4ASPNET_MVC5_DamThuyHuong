@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DthK22CNT4Lesson11DbModelStoreContainer" CdmEntityContainer="DthK22CNT4Lesson11DbEntities">
+    <EntitySetMapping Name="DthCategories">
+      <EntityTypeMapping TypeName="DthK22CNT4Lesson11DbModel.DthCategory">
+        <MappingFragment StoreEntitySet="DthCategory">
+          <ScalarProperty Name="DthID" ColumnName="DthID" />
+          <ScalarProperty Name="DthCateName" ColumnName="DthCateName" />
+          <ScalarProperty Name="DthStatus" ColumnName="DthStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DthProducts">
+      <EntityTypeMapping TypeName="DthK22CNT4Lesson11DbModel.DthProduct">
+        <MappingFragment StoreEntitySet="DthProduct">
+          <ScalarProperty Name="DthId" ColumnName="DthId" />
+          <ScalarProperty Name="DthProName" ColumnName="DthProName" />
+          <ScalarProperty Name="DthQty" ColumnName="DthQty" />
+          <ScalarProperty Name="Dthprice" ColumnName="Dthprice" />
+          <ScalarProperty Name="DthCateId" ColumnName="DthCateId" />
+          <ScalarProperty Name="DthActive" ColumnName="DthActive" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

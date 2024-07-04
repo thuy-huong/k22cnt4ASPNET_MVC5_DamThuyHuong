@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="DthK22CNT4Lesson11DbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="DthCategory">
+          <Key>
+            <PropertyRef Name="DthID" />
+          </Key>
+          <Property Name="DthID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="DthCateName" Type="nvarchar" MaxLength="50" />
+          <Property Name="DthStatus" Type="bit" />
+        </EntityType>
+        <EntityType Name="DthProduct">
+          <Key>
+            <PropertyRef Name="DthId" />
+          </Key>
+          <Property Name="DthId" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="DthProName" Type="nvarchar" MaxLength="50" />
+          <Property Name="DthQty" Type="int" />
+          <Property Name="Dthprice" Type="float" />
+          <Property Name="DthCateId" Type="int" />
+          <Property Name="DthActive" Type="bit" />
+        </EntityType>
+        <Association Name="FK_DthProduct_DthCategory">
+          <End Role="DthCategory" Type="Self.DthCategory" Multiplicity="0..1" />
+          <End Role="DthProduct" Type="Self.DthProduct" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="DthCategory">
+              <PropertyRef Name="DthID" />
+            </Principal>
+            <Dependent Role="DthProduct">
+              <PropertyRef Name="DthCateId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="DthK22CNT4Lesson11DbModelStoreContainer">
+          <EntitySet Name="DthCategory" EntityType="Self.DthCategory" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="DthProduct" EntityType="Self.DthProduct" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_DthProduct_DthCategory" Association="Self.FK_DthProduct_DthCategory">
+            <End Role="DthCategory" EntitySet="DthCategory" />
+            <End Role="DthProduct" EntitySet="DthProduct" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="DthK22CNT4Lesson11DbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="DthCategory">
+          <Key>
+            <PropertyRef Name="DthID" />
+          </Key>
+          <Property Name="DthID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="DthCateName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="DthStatus" Type="Boolean" />
+          <NavigationProperty Name="DthProducts" Relationship="Self.FK_DthProduct_DthCategory" FromRole="DthCategory" ToRole="DthProduct" />
+        </EntityType>
+        <EntityType Name="DthProduct">
+          <Key>
+            <PropertyRef Name="DthId" />
+          </Key>
+          <Property Name="DthId" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="DthProName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="DthQty" Type="Int32" />
+          <Property Name="Dthprice" Type="Double" />
+          <Property Name="DthCateId" Type="Int32" />
+          <Property Name="DthActive" Type="Boolean" />
+          <NavigationProperty Name="DthCategory" Relationship="Self.FK_DthProduct_DthCategory" FromRole="DthProduct" ToRole="DthCategory" />
+        </EntityType>
+        <Association Name="FK_DthProduct_DthCategory">
+          <End Role="DthCategory" Type="Self.DthCategory" Multiplicity="0..1" />
+          <End Role="DthProduct" Type="Self.DthProduct" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="DthCategory">
+              <PropertyRef Name="DthID" />
+            </Principal>
+            <Dependent Role="DthProduct">
+              <PropertyRef Name="DthCateId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="DthK22CNT4Lesson11DbEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="DthCategories" EntityType="Self.DthCategory" />
+          <EntitySet Name="DthProducts" EntityType="Self.DthProduct" />
+          <AssociationSet Name="FK_DthProduct_DthCategory" Association="Self.FK_DthProduct_DthCategory">
+            <End Role="DthCategory" EntitySet="DthCategories" />
+            <End Role="DthProduct" EntitySet="DthProducts" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="DthK22CNT4Lesson11DbModelStoreContainer" CdmEntityContainer="DthK22CNT4Lesson11DbEntities">
+          <EntitySetMapping Name="DthCategories">
+            <EntityTypeMapping TypeName="DthK22CNT4Lesson11DbModel.DthCategory">
+              <MappingFragment StoreEntitySet="DthCategory">
+                <ScalarProperty Name="DthID" ColumnName="DthID" />
+                <ScalarProperty Name="DthCateName" ColumnName="DthCateName" />
+                <ScalarProperty Name="DthStatus" ColumnName="DthStatus" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="DthProducts">
+            <EntityTypeMapping TypeName="DthK22CNT4Lesson11DbModel.DthProduct">
+              <MappingFragment StoreEntitySet="DthProduct">
+                <ScalarProperty Name="DthId" ColumnName="DthId" />
+                <ScalarProperty Name="DthProName" ColumnName="DthProName" />
+                <ScalarProperty Name="DthQty" ColumnName="DthQty" />
+                <ScalarProperty Name="Dthprice" ColumnName="Dthprice" />
+                <ScalarProperty Name="DthCateId" ColumnName="DthCateId" />
+                <ScalarProperty Name="DthActive" ColumnName="DthActive" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

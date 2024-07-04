@@ -1,0 +1,59 @@
+﻿@model DthK22CNT4Lesson11_221900028.Models.DthProduct
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Dth2210900028Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>DthProduct</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.DthProName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DthProName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DthQty)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DthQty)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Dthprice)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Dthprice)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DthActive)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DthActive)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DthCategory.DthCateName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DthCategory.DthCateName)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.DthId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

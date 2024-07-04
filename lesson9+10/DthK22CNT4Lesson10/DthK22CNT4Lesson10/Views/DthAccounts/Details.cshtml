@@ -1,0 +1,67 @@
+﻿@model DthK22CNT4Lesson10.Models.DthAccount
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_DthLayout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>DthAccount</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.DthUserName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DthUserName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DthPassword)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DthPassword)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DthFullName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DthFullName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DthEmail)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DthEmail)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DthPhone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DthPhone)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DthActive)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DthActive)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.DthId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
